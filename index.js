@@ -2,12 +2,16 @@ const express = require("express");
 const fileUpload = require("express-fileupload");
 const mime = require("mime-types");
 const fs = require("fs");
+require("dotenv").config();
 
 const app = express();
-const fileNameLength = 8;
-const hostname = "https://img.clxxiii.dev/";
-const secret = "KEYGOESHERE";
-const port = 3100;
+
+const {
+	STRING_LENGTH: fileNameLength,
+	HOSTNAME: hostname,
+	SECRET: secret,
+	PORT: port 
+} = process.env;
 
 app.use(fileUpload());
 app.use(express.static('files'));
