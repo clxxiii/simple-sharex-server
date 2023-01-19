@@ -44,4 +44,11 @@ Additionally, you can add a keyboard shortcut to your WM, so you can run the scr
 
 ### 4b. Configure `sharex` to upload to the server:
 
-This setup process is a lot easier. I don't have access to sharex currently, but I will update this as soon as I can get the screenshot to get it working.
+This setup process is a lot easier. Right click on the sharex icon in your system tray, and go to `Custom Uploader Settings`.
+
+![image](https://user-images.githubusercontent.com/46410314/213494640-5db55922-33d0-4ca9-a280-f27b3f1e642b.png)
+
+Make a new custom uploader, and fill out the `Method`, `Request URL`, `Body`, and `File form name` fields (highlighted on screenshot)
+
+![image](https://user-images.githubusercontent.com/46410314/213493813-9c4daadf-5d42-4abf-a432-4a61584e8054.png)
+
