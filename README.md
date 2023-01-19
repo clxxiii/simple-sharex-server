@@ -4,6 +4,9 @@ Setting up a custom image server can seem like a daunting task. I struggled to f
 
 # Setup
 
+## Step 0: Get a domain and a server with the storage you want.
+If you are starting from scratch, you will first need a server and a domain. I personally use a digitalocean droplet, and it works just fine for my purposes. Although not required, knowledge of nginx or apache is quite useful for the initial setup.
+
 ### 1. Clone repo, install dependencies
 
 ```bash
