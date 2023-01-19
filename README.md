@@ -20,8 +20,8 @@ it with the following variables:
 
 ```env
 STRING_LENGTH=8 # How long the filename should be
-SECRET="secret" # A unique string to prevent other
-HOSTNAME="http://localhost:3000" # Your server's hostname
+SECRET="secret" # A unique string to prevent others from uploading to your server
+HOSTNAME="http://localhost:3000" # Your domain name & port (if necessary)
 PORT=3000 # The port the server will run on
 ```
 
